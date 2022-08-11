@@ -1,0 +1,15 @@
+{
+  "name": "BSC Blocks",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "BSC Blocks": {
+        "url": "https://api.thegraph.com/subgraphs/name/radioshackcreator/blocks-bsc",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
